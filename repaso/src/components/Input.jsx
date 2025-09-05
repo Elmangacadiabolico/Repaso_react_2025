@@ -5,12 +5,12 @@ import React, { useState } from "react";
   const [textoMostrado, setTextoMostrado] = useState("");
   const [numero, setNumero] = useState("");
 
-  const handleMostrarTexto = () => {
+  const MostrarTexto = () => {
     setTextoMostrado(texto.trim());
   };
 
   const doble = (Number(numero) || 0) * 2;
-
+//algo 
   return (
     <div>
 
@@ -21,8 +21,8 @@ import React, { useState } from "react";
         onChange={(e) => setTexto(e.target.value)}
         placeholder="Escribí algo…"
       />
-      <button onClick={handleMostrarTexto}>Mostrar</button>
-      <p>Resultado: {textoMostrado}</p>
+      <button onClick={MostrarTexto}>Mostrar</button>
+      <p> {textoMostrado}</p>
 
       <hr />
 
