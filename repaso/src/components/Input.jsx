@@ -26,7 +26,6 @@ import React, { useState } from "react";
 
       <hr />
 
-      {/* Parte 2: Multiplicar en tiempo real */}
       <h3>Valor multiplicado en tiempo real</h3>
       <input
         type="number"
